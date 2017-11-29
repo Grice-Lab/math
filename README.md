@@ -1,15 +1,16 @@
-EGriceLab::util introduction
+EGriceLab::math introduction
 ============================
-EGriceLab::util is shared C++ library used among EGriceLab which contains useful classes and functions
+EGriceLab::math is shared C++ math library used among EGriceLab which contains useful classes and functions
 for common functionalities across multiple C/C++ projects
 
 Implementation
 --------------
-EGriceLab::util is written in pure C++98, and built with the GNU Autotools
+EGriceLab::math is written in pure C++98, and built with the GNU Autotools
 
 Dependencies
 ------------
-EGriceLab::util depends on the popular head-only C++ library Boost.
+EGriceLab::math depends on the popular header-only C++ libraries Boost and Eigen3.
+Some of its functionality is dependent on Boost::Math and thus it is optional to build/install Boost.
 
 Installation
 ------------
